@@ -3,9 +3,9 @@
 - 컨테이너를 pod 내에 배치하고 node에서 실행함으로써 workload를 구동한다.
 - 각 node는 control plane에 의해 관리된다.
 - node의 컴포넌트에는 kubelet, container runtime, kube-proxy가 포함됨
-  > kubelet : container 각 노드에서 실행되는 agent
-  > container runtime : container 실행을 담당하는 소프트웨어
-  > kube-proxy : 클러스터 각 노드에서 실행되는 network proxy
+  > kubelet : container 각 노드에서 실행되는 agent  
+  > container runtime : container 실행을 담당하는 소프트웨어  
+  > kube-proxy : 클러스터 각 노드에서 실행되는 network proxy  
 
 ### node 추가하기
 - node의 kubelet으로 control plane에 자체 등록
